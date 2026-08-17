@@ -9,20 +9,20 @@ export default function Footer() {
             <span className="logo-mark">T</span>
             <span className="logo-word text-white">Trinarix</span>
           </Link>
-          <p>Intelligent technology. Secure systems.<br />Real-world impact.</p>
+          <p>Games, experiences and product<br />innovation. RV University.</p>
         </div>
         <div className="footer-links">
           <div>
             <h4>Explore</h4>
             <Link to="/about">About</Link>
-            <Link to="/solutions">Solutions</Link>
-            <Link to="/research">Research</Link>
-            <Link to="/resources">Resources</Link>
+            <Link to="/products">Products</Link>
+            <Link to="/team">Team</Link>
+            <Link to="/achievements">Achievements</Link>
             <Link to="/contact">Contact</Link>
           </div>
           <div>
             <h4>Connect</h4>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/trinarix-1b290942a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://github.com/MehulkumarRVU/TrinariX_Website" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href="mailto:hello@trinarix.com">Email</a>
           </div>
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="container footer-disclaimer">
-        <p>Trinarix is an early-stage technology initiative. Unless stated otherwise, content on this site describes ongoing research, prototypes and concepts rather than deployed production systems.</p>
+        <p>Trinarix is a student-led startup connected with RV University's Centre for Innovation &amp; Entrepreneurship. Unless stated otherwise, content on this site describes concepts and prototypes in development rather than finished, market-ready products.</p>
       </div>
       <div className="container footer-bottom">
         <p>© {new Date().getFullYear()} Trinarix. All rights reserved.</p>

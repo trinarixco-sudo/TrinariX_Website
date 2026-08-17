@@ -34,6 +34,14 @@ export default function IconSprite() {
         <symbol id="icon-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4 10 14M19 13v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6" /></symbol>
         <symbol id="icon-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" /><circle cx="12" cy="12" r="4" /><circle cx="12" cy="12" r="0.6" fill="currentColor" stroke="none" /></symbol>
         <symbol id="icon-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" /><path d="M15 9l-2 6-4 2 2-6 4-2z" /></symbol>
+        <symbol id="icon-dice" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4" /><circle cx="8" cy="8" r="1" fill="currentColor" stroke="none" /><circle cx="16" cy="8" r="1" fill="currentColor" stroke="none" /><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none" /><circle cx="8" cy="16" r="1" fill="currentColor" stroke="none" /><circle cx="16" cy="16" r="1" fill="currentColor" stroke="none" /></symbol>
+        <symbol id="icon-puzzle" viewBox="0 0 24 24"><path d="M9 3h4v2.3a1.7 1.7 0 0 0 3 1.1V9h3v4h-2.3a1.7 1.7 0 0 0 0 3.4V21h-4v-2.3a1.7 1.7 0 0 0-3-1.1V21H6v-4H3.7a1.7 1.7 0 0 1 0-3.4H6V9H3.7A1.7 1.7 0 0 1 6 5.6V3h3z" /></symbol>
+        <symbol id="icon-gift" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="4" /><rect x="5" y="12" width="14" height="9" /><path d="M12 8v13M12 8c-1.5-4-6-4-6-1s3 1 6 1zm0 0c1.5-4 6-4 6-1s-3 1-6 1z" /></symbol>
+        <symbol id="icon-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M3 10h18M8 3v4M16 3v4" /><circle cx="8" cy="15" r="1" fill="currentColor" stroke="none" /><circle cx="12" cy="15" r="1" fill="currentColor" stroke="none" /><circle cx="16" cy="15" r="1" fill="currentColor" stroke="none" /></symbol>
+        <symbol id="icon-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2" /><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18" /></symbol>
+        <symbol id="icon-trophy" viewBox="0 0 24 24"><path d="M8 4h8v6a4 4 0 0 1-8 0V4z" /><path d="M8 5H4v2a4 4 0 0 0 4 4M16 5h4v2a4 4 0 0 1-4 4M10 18h4M10 14v4M14 14v4M8 21h8" /></symbol>
+        <symbol id="icon-box" viewBox="0 0 24 24"><path d="M3 8l9-5 9 5-9 5-9-5z" /><path d="M3 8v9l9 5 9-5V8M12 13v9" /></symbol>
+        <symbol id="icon-screen-off" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2" /><path d="M8 21h8M12 17v4M2 2l20 20" /></symbol>
       </defs>
     </svg>
   );

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Icon from '../components/Icon';
 import Reveal from '../components/Reveal';
 
-const topics = ['Research Collaboration', 'Technology Partnership', 'Business Enquiry', 'Investment', 'Project Collaboration', 'Media', 'Other'];
+const topics = ['Wedding Booking', 'Corporate Event', 'Festival / Community Event', 'Product Collaboration', 'Retail / Distribution Partnership', 'Media', 'Other'];
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', org: '', subject: '', message: '' });
@@ -23,7 +23,7 @@ export default function Contact() {
         <div className="container">
           <p className="breadcrumb"><Link to="/">Home</Link> / Contact</p>
           <h1>Let's build something meaningful.</h1>
-          <p className="page-hero-sub">Reach out for research collaboration, technology partnerships or general enquiries.</p>
+          <p className="page-hero-sub">Reach out about a wedding, corporate event, festival, or a product/retail partnership.</p>
         </div>
       </section>
 
@@ -66,7 +66,7 @@ export default function Contact() {
               <div className="contact-info-card">
                 <h3>Reach us directly</h3>
                 <a href="mailto:hello@trinarix.com"><Icon name="mail" className="icon-sm" /> hello@trinarix.com</a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><Icon name="linkedin" className="icon-sm" /> LinkedIn</a>
+                <a href="https://www.linkedin.com/in/trinarix-1b290942a" target="_blank" rel="noopener noreferrer"><Icon name="linkedin" className="icon-sm" /> LinkedIn</a>
                 <a href="https://github.com/MehulkumarRVU/TrinariX_Website" target="_blank" rel="noopener noreferrer"><Icon name="github" className="icon-sm" /> GitHub</a>
               </div>
               <div className="contact-info-card">

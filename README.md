@@ -1,9 +1,11 @@
 # Trinarix Website
 
-Marketing site for **Trinarix** — an AI + cybersecurity deep-tech initiative.
+Marketing site for **Trinarix** — a student-led games, experiences and
+product-innovation startup connected with RV University's Centre for
+Innovation & Entrepreneurship (CIEn).
 
-Built with React, Vite, and React Router. No CSS framework — a small hand-rolled
-design system (tokens in `src/styles/global.css`).
+Built with React, Vite, and React Router. No CSS framework — a small
+hand-rolled design system (tokens in `src/styles/global.css`).
 
 ## Structure
 
@@ -12,17 +14,16 @@ src/
   App.jsx              Route definitions
   main.jsx             Entry point, router + global styles
   components/          Navbar, Footer, Icon sprite, scroll-reveal, section headers
-  pages/                Home, About, Solutions, SolutionDetail, Research,
-                         Resources, Contact, NotFound
-  data/                 solutions.js, research.js, resources.js — edit these
+  pages/                Home, About, Products, Team, Achievements, Contact, NotFound
+  data/                 products.js, team.js, achievements.js — edit these
                          to add/update content without touching page markup
   styles/
     global.css          Design tokens, nav, footer, buttons, shared cards
-    pages.css           Page-specific layout (hero, timeline, detail grid, etc.)
+    pages.css           Page-specific layout (hero, timeline, team, achievements, etc.)
 ```
 
-Routes: `/`, `/about`, `/solutions`, `/solutions/:slug`, `/research`,
-`/resources`, `/contact`, plus a catch-all 404.
+Routes: `/`, `/about`, `/products`, `/team`, `/achievements`, `/contact`,
+plus a catch-all 404.
 
 ## Running locally
 
@@ -45,15 +46,21 @@ can serve it — just make sure the host redirects unknown paths to
 
 ## Content honesty
 
-`data/research.js` and `data/resources.js` are intentionally empty until
-there's real material to publish — the pages are built to show a clean
-"coming soon" state rather than placeholder content pretending to be real.
-Update those files (and `data/solutions.js`) as the actual product and
-research progress.
+`data/achievements.js` only lists items that are independently confirmed
+(RV University/CIEn affiliation, IEEE APSCON 2026 / MYOSA 4.0 selection, and
+specific founder certifications/results). A few other achievements mentioned
+internally — an ELEVATE result, an exact FKCCI result, a Kerala event, an
+IIT Kharagpur connection — are deliberately left off until there's a
+certificate or public source to cite. Add them to `data/achievements.js`
+once verified.
+
+`data/products.js` lists the ten experience categories as concepts — each
+card carries a "Concept" tag since none are shipped products yet.
 
 ## Next steps
 
 - Wire the contact form to a real backend/email service (it currently opens
   a `mailto:` link).
-- Populate `data/research.js` and `data/resources.js` as real work is published.
+- Add the pending achievements once certificates/sources are available.
+- Add real photos for the team page (currently initials avatars).
 - Add a CI deploy step once a hosting target is chosen.

@@ -5,10 +5,9 @@ import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import About from './pages/About';
-import Solutions from './pages/Solutions';
-import SolutionDetail from './pages/SolutionDetail';
-import Research from './pages/Research';
-import Resources from './pages/Resources';
+import Products from './pages/Products';
+import Team from './pages/Team';
+import Achievements from './pages/Achievements';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 
@@ -22,10 +21,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/solutions" element={<Solutions />} />
-          <Route path="/solutions/:slug" element={<SolutionDetail />} />
-          <Route path="/research" element={<Research />} />
-          <Route path="/resources" element={<Resources />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/achievements" element={<Achievements />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

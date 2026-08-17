@@ -4,9 +4,9 @@ import Icon from './Icon';
 
 const links = [
   { to: '/about', label: 'About' },
-  { to: '/solutions', label: 'Solutions' },
-  { to: '/research', label: 'Research' },
-  { to: '/resources', label: 'Resources' },
+  { to: '/products', label: 'Products' },
+  { to: '/team', label: 'Team' },
+  { to: '/achievements', label: 'Achievements' },
 ];
 
 export default function Navbar() {
@@ -38,7 +38,7 @@ export default function Navbar() {
             </NavLink>
           ))}
           <NavLink to="/contact" className="btn btn-primary btn-sm" onClick={() => setOpen(false)}>
-            Talk to us
+            Get in touch
           </NavLink>
         </nav>
         <button className="nav-toggle" aria-label="Toggle navigation" onClick={() => setOpen((v) => !v)}>

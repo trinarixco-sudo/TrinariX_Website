@@ -9,8 +9,8 @@ export default function About() {
       <section className="page-hero">
         <div className="container">
           <p className="breadcrumb"><Link to="/">Home</Link> / About</p>
-          <h1>Building intelligent systems that people can actually trust.</h1>
-          <p className="page-hero-sub">The story, mission and values behind Trinarix.</p>
+          <h1>Games, experiences and product innovation.</h1>
+          <p className="page-hero-sub">Trinarix is a student-led startup connected with RV University's Centre for Innovation &amp; Entrepreneurship (CIEn).</p>
         </div>
       </section>
 
@@ -19,32 +19,31 @@ export default function About() {
           <SectionHead index="01" kicker="Our story" title="Why Trinarix exists." />
           <Reveal className="about-story">
             <div>
-              <div className="about-story-avatar">DK</div>
-              <h3>Dharini K H</h3>
-              <span className="role">Founder</span>
-              <p>Trinarix started from a simple frustration: most AI-driven security tools tell you <em>that</em> something is wrong, but not <em>why</em> — leaving analysts to either blindly trust a black box or ignore it entirely.</p>
+              <p>Trinarix is centred on games, interactive experiences and customizable physical/game-based products, with the broader goal of creating engaging experiences for individuals, groups, events and organizations.</p>
+              <p>The important part of that positioning: Trinarix isn't simply a "gaming company." It's better understood as a games, experiences and product-innovation startup — developing customizable, modular and engaging physical game experiences for consumers, events and organizations.</p>
+              <p>The venture is connected with RV University's Centre for Innovation &amp; Entrepreneurship, which places it inside the university's entrepreneurship ecosystem rather than being a one-off classroom project.</p>
             </div>
             <div>
               <div className="timeline">
                 <div className="timeline-item">
-                  <span className="timeline-year">Phase 1</span>
-                  <h4>Concept developed</h4>
-                  <p>Trinarix started as a research initiative exploring explainable AI for security use cases.</p>
+                  <span className="timeline-year">Start</span>
+                  <h4>A CIEn-connected concept</h4>
+                  <p>Trinarix began as an idea within RV University's innovation and entrepreneurship ecosystem.</p>
                 </div>
                 <div className="timeline-item">
-                  <span className="timeline-year">Phase 2</span>
-                  <h4>Early prototyping</h4>
-                  <p>Initial experiments in anomaly detection and reasoning-based explanation began.</p>
+                  <span className="timeline-year">Formats</span>
+                  <h4>Ten experience categories defined</h4>
+                  <p>From board games to screen-free interactive experiences — a modular set of formats, not a single product.</p>
                 </div>
                 <div className="timeline-item">
-                  <span className="timeline-year">Phase 3</span>
-                  <h4>Platform design</h4>
-                  <p>Architecture work started on a modular platform that can grow from prototype to production.</p>
+                  <span className="timeline-year">Team</span>
+                  <h4>Three founders, complementary skills</h4>
+                  <p>Technology, product and execution — brought together as a founding team of three.</p>
                 </div>
                 <div className="timeline-item">
                   <span className="timeline-year">Now</span>
-                  <h4>Building in the open</h4>
-                  <p>Documenting research, publishing progress, and looking for the right early collaborators.</p>
+                  <h4>Building toward real events</h4>
+                  <p>Turning concepts into prototypes people can actually play.</p>
                 </div>
               </div>
             </div>
@@ -59,17 +58,17 @@ export default function About() {
             <div className="panel-card">
               <Icon name="target" className="accent-blue" />
               <h3>Mission</h3>
-              <p>To build AI-driven security tools that explain their reasoning, not just their conclusions.</p>
+              <p>To create engaging, screen-free experiences that bring people together — at weddings, offices, festivals and everyday gatherings.</p>
             </div>
             <div className="panel-card">
               <Icon name="compass" className="accent-blue" />
               <h3>Vision</h3>
-              <p>A future where automated security decisions are transparent enough to be trusted by the people who rely on them.</p>
+              <p>A recognizable name for customizable game experiences — built by students, for real events and real people.</p>
             </div>
             <div className="panel-card">
               <Icon name="bulb" className="accent-blue" />
               <h3>Philosophy</h3>
-              <p>Security and intelligence should be designed together from the start, not bolted on after the fact.</p>
+              <p>A game should adapt to the people playing it, the occasion and the space — not the other way around.</p>
             </div>
           </Reveal>
         </div>
@@ -79,10 +78,10 @@ export default function About() {
         <div className="container">
           <SectionHead index="03" kicker="Core values" title="What guides how we build." />
           <Reveal className="card-grid four">
-            <div className="feature-card"><Icon name="eye" className="accent-blue" /><h3>Precision</h3><p>Favouring correctness and clarity over impressive-sounding claims.</p></div>
-            <div className="feature-card"><Icon name="doc" className="accent-blue" /><h3>Transparency</h3><p>Being upfront about what's built, what's in progress, and what's still a concept.</p></div>
-            <div className="feature-card"><Icon name="heart" className="accent-blue" /><h3>Empathy</h3><p>Designing for the analysts and teams who will actually use this, not just the demo.</p></div>
-            <div className="feature-card"><Icon name="users" className="accent-blue" /><h3>Partnership</h3><p>Building alongside early collaborators rather than in isolation.</p></div>
+            <div className="feature-card"><Icon name="spark" className="accent-blue" /><h3>Creativity</h3><p>Starting from an occasion or audience, not a generic game template.</p></div>
+            <div className="feature-card"><Icon name="check" className="accent-blue" /><h3>Craft</h3><p>Prototyping and testing formats with real groups before calling them finished.</p></div>
+            <div className="feature-card"><Icon name="users" className="accent-blue" /><h3>Community</h3><p>Designing for social interaction — games that work better with more people, not fewer.</p></div>
+            <div className="feature-card"><Icon name="box" className="accent-blue" /><h3>Entrepreneurial drive</h3><p>Treating every format as a product, not just a fun idea.</p></div>
           </Reveal>
         </div>
       </section>
@@ -92,9 +91,12 @@ export default function About() {
           <Reveal className="cta-banner">
             <div>
               <h2>Want to be part of this early?</h2>
-              <p>We're looking for research collaborators, technology partners, and early adopters.</p>
+              <p>We're looking for early collaborators, mentors and event partners.</p>
             </div>
-            <Link to="/contact" className="btn btn-primary">Get in touch <Icon name="arrow-right" className="icon-sm" /></Link>
+            <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
+              <Link to="/team" className="btn btn-secondary">Meet the team</Link>
+              <Link to="/contact" className="btn btn-primary">Get in touch <Icon name="arrow-right" className="icon-sm" /></Link>
+            </div>
           </Reveal>
         </div>
       </section>
