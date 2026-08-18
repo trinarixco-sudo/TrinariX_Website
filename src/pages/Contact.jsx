@@ -13,7 +13,7 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const body = `Name: ${form.name}\nEmail: ${form.email}\nOrganisation: ${form.org || 'N/A'}\n\n${form.message}`;
-    const mailto = `mailto:hello@trinarix.com?subject=${encodeURIComponent('[Trinarix] ' + (form.subject || 'Enquiry'))}&body=${encodeURIComponent(body)}`;
+    const mailto = `mailto:trinarix.co@gmail.com?subject=${encodeURIComponent('[Trinarix] ' + (form.subject || 'Enquiry'))}&body=${encodeURIComponent(body)}`;
     window.location.href = mailto;
   };
 
@@ -65,7 +65,7 @@ export default function Contact() {
             <div>
               <div className="contact-info-card">
                 <h3>Reach us directly</h3>
-                <a href="mailto:hello@trinarix.com"><Icon name="mail" className="icon-sm" /> hello@trinarix.com</a>
+                <a href="mailto:trinarix.co@gmail.com"><Icon name="mail" className="icon-sm" /> trinarix.co@gmail.com</a>
                 <a href="https://www.linkedin.com/in/trinarix-1b290942a" target="_blank" rel="noopener noreferrer"><Icon name="linkedin" className="icon-sm" /> LinkedIn</a>
                 <a href="https://github.com/MehulkumarRVU/TrinariX_Website" target="_blank" rel="noopener noreferrer"><Icon name="github" className="icon-sm" /> GitHub</a>
               </div>

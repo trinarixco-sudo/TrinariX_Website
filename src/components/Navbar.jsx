@@ -23,8 +23,7 @@ export default function Navbar() {
     <header className={`site-header ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-inner">
         <NavLink to="/" className="logo" onClick={() => setOpen(false)}>
-          <span className="logo-mark">T</span>
-          <span className="logo-word">Trinarix</span>
+          <img src="/logo.png" alt="Trinarix" className="logo-img" />
         </NavLink>
         <nav className={`nav-links ${open ? 'open' : ''}`}>
           {links.map((l) => (

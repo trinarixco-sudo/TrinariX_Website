@@ -6,8 +6,7 @@ export default function Footer() {
       <div className="container footer-inner">
         <div className="footer-brand">
           <Link to="/" className="logo">
-            <span className="logo-mark">T</span>
-            <span className="logo-word text-white">Trinarix</span>
+            <img src="/logo.png" alt="Trinarix" className="logo-img" />
           </Link>
           <p>Games, experiences and product<br />innovation. RV University.</p>
         </div>
@@ -24,7 +23,7 @@ export default function Footer() {
             <h4>Connect</h4>
             <a href="https://www.linkedin.com/in/trinarix-1b290942a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://github.com/MehulkumarRVU/TrinariX_Website" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="mailto:hello@trinarix.com">Email</a>
+            <a href="mailto:trinarix.co@gmail.com">Email</a>
           </div>
           <div>
             <h4>Legal</h4>

@@ -36,7 +36,7 @@
 .hero-visual{position:relative;}
 .hero-shape{
   position:absolute;top:-40px;right:-40px;width:340px;height:340px;
-  background:radial-gradient(circle, var(--blue-bg) 0%, rgba(255,241,236,0) 70%);
+  background:radial-gradient(circle, var(--blue-bg) 0%, rgba(251,234,233,0) 70%);
   border-radius:50%;z-index:0;
 }
 

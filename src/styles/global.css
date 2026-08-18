@@ -1,29 +1,32 @@
 :root{
-  --primary:#FF5A5F;
-  --primary-dark:#E14348;
-  --secondary:#6C5CE7;
-  --secondary-dark:#5842D6;
-  --text:#241C3D;
-  --text-secondary:#6B6478;
-  --bg:#FFF8F0;
+  /* Brand colors sampled directly from the Trinarix logo */
+  --primary:#8B0F10;
+  --primary-dark:#6B0B0C;
+  --secondary:#E5421B;
+  --secondary-dark:#C23212;
+  --text:#241512;
+  --text-secondary:#6E5C56;
+  --bg:#FDFAF5;
   --white:#FFFFFF;
-  --accent:#FFC93C;
-  --accent-dark:#A9780A;
+  --accent:#E5421B;
+  --accent-dark:#B8330F;
   --success:#1CA85E;
-  --blue-bg:#FFF1EC;
-  --blue-border:#FFD9CE;
-  --amber-bg:#FFFBEA;
-  --purple-bg:#F3EFFF;
-  --purple-border:#E1D6FF;
-  --border:#EFE2D3;
-  --dark-bg:#241C3D;
-  --dark-surface:#352A50;
-  --dark-border:#4A3C68;
-  --dark-text-secondary:#B7ADD0;
+  --blue-bg:#FBEAE9;
+  --blue-border:#F0C7C4;
+  --amber-bg:#FDE9DE;
+  --purple-bg:#F5EBE3;
+  --purple-border:#E8D5C8;
+  --border:#F0E1D8;
+  --dark-bg:#241010;
+  --dark-surface:#351815;
+  --dark-border:#4A2420;
+  --dark-text-secondary:#D9BBB3;
+  --footer-bg:#F1E3D6;
+  --footer-border:#E3CFBC;
   --radius-sm:10px;
   --radius-md:14px;
-  --shadow-sm:0 1px 2px rgba(36,28,61,0.07);
-  --shadow-md:0 6px 18px rgba(36,28,61,0.10);
+  --shadow-sm:0 1px 2px rgba(36,21,18,0.07);
+  --shadow-md:0 6px 18px rgba(36,21,18,0.10);
   --font-body:'Inter', sans-serif;
   --font-display:'Plus Jakarta Sans', sans-serif;
 }
@@ -91,26 +94,10 @@ main{display:block;min-height:60vh;}
 .logo{
   display:flex;
   align-items:center;
-  gap:9px;
 }
-.logo-mark{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  width:30px;height:30px;
-  border-radius:8px;
-  background:var(--primary);
-  color:#fff;
-  font-family:var(--font-display);
-  font-weight:700;
-  font-size:0.95rem;
-}
-.logo-word{
-  font-family:var(--font-display);
-  font-weight:700;
-  font-size:1.15rem;
-  letter-spacing:-0.01em;
-  color:var(--text);
+.logo-img{
+  height:32px;
+  width:auto;
 }
 .nav-links{
   display:flex;
@@ -271,7 +258,7 @@ main{display:block;min-height:60vh;}
 .feature-card:hover{
   box-shadow:var(--shadow-md);
   transform:translateY(-2px);
-  border-color:#CBD5E1;
+  border-color:#D9C3B4;
 }
 .feature-card .icon{margin-bottom:14px;width:24px;height:24px;}
 .feature-card h3{
@@ -312,7 +299,7 @@ main{display:block;min-height:60vh;}
   padding:24px 22px;
   transition:border-color .2s ease, transform .2s ease;
 }
-.dark-card:hover{border-color:#475569;transform:translateY(-2px);}
+.dark-card:hover{border-color:#6B3830;transform:translateY(-2px);}
 .dark-card .icon{margin-bottom:14px;}
 .dark-card h3{
   font-family:var(--font-display);
@@ -325,10 +312,10 @@ main{display:block;min-height:60vh;}
 
 /* FOOTER */
 .site-footer{
-  border-top:1px solid var(--dark-border);
+  border-top:1px solid var(--footer-border);
   padding:64px 0 0;
-  background:var(--dark-bg);
-  color:var(--dark-text-secondary);
+  background:var(--footer-bg);
+  color:var(--text-secondary);
 }
 .footer-inner{
   display:flex;
@@ -337,8 +324,7 @@ main{display:block;min-height:60vh;}
   flex-wrap:wrap;
   padding-bottom:40px;
 }
-.site-footer .logo-mark{background:var(--primary);}
-.footer-brand p{color:var(--dark-text-secondary);font-size:0.9rem;margin-top:16px;}
+.footer-brand p{color:var(--text-secondary);font-size:0.9rem;margin-top:16px;}
 .footer-links{
   display:flex;
   gap:52px;
@@ -348,33 +334,33 @@ main{display:block;min-height:60vh;}
   font-size:0.78rem;
   text-transform:uppercase;
   letter-spacing:0.06em;
-  color:#8F82AD;
+  color:#A38F80;
   margin-bottom:14px;
   font-weight:700;
 }
 .footer-links a{
   display:block;
-  color:var(--dark-text-secondary);
+  color:var(--text-secondary);
   font-size:0.92rem;
   margin-bottom:11px;
   transition:color .15s ease;
 }
-.footer-links a:hover{color:#fff;}
+.footer-links a:hover{color:var(--primary);}
 .footer-disclaimer{
-  border-top:1px solid var(--dark-border);
+  border-top:1px solid var(--footer-border);
   padding:18px 0;
 }
 .footer-disclaimer p{
   font-size:0.78rem;
-  color:#8F82AD;
+  color:#A38F80;
   max-width:760px;
   line-height:1.6;
 }
 .footer-bottom{
-  border-top:1px solid var(--dark-border);
+  border-top:1px solid var(--footer-border);
   padding:22px 0;
   text-align:center;
-  color:#8F82AD;
+  color:#A38F80;
   font-size:0.84rem;
 }
 
