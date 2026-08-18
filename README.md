@@ -44,6 +44,17 @@ Output goes to `dist/`. Any static host (Vercel, Netlify, GitHub Pages, etc.)
 can serve it — just make sure the host redirects unknown paths to
 `index.html` so client-side routing works.
 
+## Deploying to Vercel
+
+`vercel.json` in the repo root already has the SPA rewrite rule so
+`/products`, `/team`, etc. work on direct load/refresh. To deploy:
+
+1. Go to [vercel.com/new](https://vercel.com/new) and sign in.
+2. Import the `TrinariX_Website` GitHub repo — Vercel auto-detects the
+   Vite framework preset (build command `npm run build`, output `dist`),
+   nothing to change.
+3. Click **Deploy**. Every push to `main` auto-deploys from then on.
+
 ## Deploying to Render
 
 `render.yaml` in the repo root already defines the static site (build
