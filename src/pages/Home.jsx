@@ -81,7 +81,6 @@ export default function Home() {
       <section className="hero">
         <div className="container hero-inner">
           <div className="hero-copy reveal in-view">
-            <p className="badge"><Icon name="dice" size={15} /> Student Startup · RV University</p>
             <h1>Games and experiences people actually want to <span className="highlight">play.</span></h1>
             <p className="hero-sub">Trinarix designs customizable, modular game experiences — for weddings, corporate events, festivals and everyday play — built by a student team that takes ideas from concept to a working product.</p>
             <div className="hero-actions">

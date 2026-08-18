@@ -67,13 +67,6 @@ export default function Contact() {
                 <h3>Reach us directly</h3>
                 <a href="mailto:trinarix.co@gmail.com"><Icon name="mail" className="icon-sm" /> trinarix.co@gmail.com</a>
                 <a href="https://www.linkedin.com/in/trinarix-1b290942a" target="_blank" rel="noopener noreferrer"><Icon name="linkedin" className="icon-sm" /> LinkedIn</a>
-                <a href="https://github.com/MehulkumarRVU/TrinariX_Website" target="_blank" rel="noopener noreferrer"><Icon name="github" className="icon-sm" /> GitHub</a>
-              </div>
-              <div className="contact-info-card">
-                <h3>Currently open to</h3>
-                <div className="contact-topics">
-                  {topics.slice(0, 5).map((t) => <span key={t}>{t}</span>)}
-                </div>
               </div>
             </div>
           </Reveal>
