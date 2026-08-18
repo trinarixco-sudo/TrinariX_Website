@@ -44,6 +44,24 @@ Output goes to `dist/`. Any static host (Vercel, Netlify, GitHub Pages, etc.)
 can serve it — just make sure the host redirects unknown paths to
 `index.html` so client-side routing works.
 
+## Deploying to Render
+
+`render.yaml` in the repo root already defines the static site (build
+command, publish directory, and the SPA rewrite rule so `/products`,
+`/team`, etc. work on direct load/refresh). To deploy:
+
+1. Go to the [Render dashboard](https://dashboard.render.com) and sign in.
+2. **New +** → **Blueprint**, connect your GitHub account if you haven't,
+   and select the `TrinariX_Website` repo.
+3. Render reads `render.yaml` automatically and shows a static site named
+   `trinarix-website` — click **Apply** to create and deploy it.
+4. Every push to `main` auto-deploys from then on.
+
+(No Blueprint support, or want it manually instead: **New +** → **Static
+Site** → select the repo → build command `npm install && npm run build`,
+publish directory `dist` → add a rewrite rule `/* → /index.html` under
+Redirects/Rewrites.)
+
 ## Content honesty
 
 `data/achievements.js` only lists items that are independently confirmed
